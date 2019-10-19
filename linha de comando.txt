@@ -1,0 +1,47 @@
+-help
+	Imprime uma ajuda sobre os parâmetros de cada opção.
+
+-seed
+	Passa uma semente específica para inicialização.
+	
+-load
+	Carrega os dados de uma execução anterior.
+	Se for usado, os outros parâmetros serão ignorados.
+	
+-nograph
+	Trabalha apenas na linha de comando, sem usar o GLUT.
+	
+-noise
+	Ajusta o ruído presente no sistema.
+	
+-shape
+	Ajusta a forma das partículas.
+	
+-dens
+	Ajusta a densidade do sistema.
+	
+-measure
+	Para uma execução a fim de tirar medidas, informa o
+	intervalo de tempo sobre o qual a medida será feita.
+	
+-N
+	Determina o número de partículas.
+	
+-repOnly
+	Determina o alcance do potencial.
+	0 = total;
+	1 = corte onde o potencial é nulo;
+	2 = corte no ponto onde a força (radial) é nula.
+	
+-rug
+	Ajusta os parâmetros das rugosidades das paredes do corredor.
+	Se não for usado, o corredor liso será usado.
+
+-perfect
+	As partículas estarão numa situação ideal: não confinadas, sem
+	ruído, e sem auto-propulsão. O ruído e as rugosidades, portanto,
+	caso passadas como parâmetro, serão ignoradas. Usado para
+	avaliar a conservação da energia.
+
+-dt
+	Ajusta o passo de tempo de evolução do sistema.
