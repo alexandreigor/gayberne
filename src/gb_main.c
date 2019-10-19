@@ -1421,8 +1421,7 @@ void processarEntrada(int argc, char **argv) {
 		i += numArgs;
 		free(nextArg);
 	}
-	// TODO: trocar aqui
-	setPerfect(false);
+	setPerfect(perfect);
 }
 
 inline void print_usage(String exeName, unsigned int num_options,
@@ -1482,6 +1481,7 @@ inline void print_usage(String exeName, unsigned int num_options,
 }
 
 void setPerfect(const boolean _perfect) {
+	// TODO: Ajustar aqui; não está funcionando
 	PERFECT_RUN = _perfect;
 	//	LIMITE_POTENCIAL = PERFECT_RUN ? POTENCIAL_SIGMA_RANGE
 	//			: POTENCIAL_SIGMA_RANGE;
