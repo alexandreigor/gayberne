@@ -1,0 +1,22 @@
+Execuções:
+
+Conservação da energia:
+
+Perfeito, com potencial total, partícula com proporção 3.0:
+gb_P_dt0.000500_ts2012-08-15_092146.dat
+
+Perfeito, com potencial repulsivo apenas, partícula circular, corte em sigma:
+gb_P_dt0.000500_ts2012-08-15_094108.dat
+gb_P_dt0.000100_ts2012-08-16_091237.dat
+
+Perfeito, com potencial repulsivo apenas, partícula com proporção 3.0, corte em sigma:
+gb_P_dt0.000500_ts2012-08-15_094152.dat
+gb_P_dt0.000100_ts2012-08-16_091303.dat
+
+Perfeito, com potencial repulsivo apenas, partícula circular, corte em rp:
+gb_P_dt0.000500_ts2012-08-15_164743.dat
+gb_P_dt0.000100_ts2012-08-17_092349.dat
+
+Perfeito, com potencial repulsivo apenas, partícula com proporção 3.0, corte em rp:
+gb_P_dt0.000500_ts2012-08-15_164723.dat
+gb_P_dt0.000100_ts2012-08-17_092421.dat
